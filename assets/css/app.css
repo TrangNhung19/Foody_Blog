@@ -1,0 +1,35 @@
+
+.page-title {
+    padding-bottom: 55px;
+}
+.page-title {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0 35px;
+    color: black;
+}
+.page-title h1 {
+  font-size: 56px;
+  color: black;
+  letter-spacing: -3px;
+  margin: 30px 2px 45px;
+  line-height: 50px;
+}
+
+.grid-column-container {
+    padding: 0 20px;
+}
+
+* {
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    color:black;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+.main-content {
+    font-size: 20px;
+    max-width: 728px;
+    margin: 0 auto;
+}
