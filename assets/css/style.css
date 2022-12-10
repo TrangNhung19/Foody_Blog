@@ -1,34 +1,14 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
 
   --rich-black-fogra-29: hsl(210, 26%, 7%);
   --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
   --independence_30: hsla(245, 17%, 29%, 0.3);
   --gray-x-11-gray: hsl(0, 0%, 73%);
-  --champagne-pink: hsl(23, 61%, 86%);
+  --champagne-pink: hsl(232, 47%, 75%);
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --deep-saffron: hsl(32, 100%, 59%);
-  --dark-orange: hsl(28, 100%, 58%);
+  --dark-orange: hsl(35, 80%, 47%);
   --desert-sand: hsl(23, 49%, 82%);
   --isabelline: hsl(38, 44%, 96%);
   --gainsboro: hsl(0, 0%, 87%);
@@ -287,12 +267,6 @@ body.active { overflow: hidden; }
   color: var(--deep-saffron);
 }
 
-.abs-img {
-  position: absolute;
-  transform: scale(1);
-}
-
-.scale-up-anim { animation: scaleUp 1s linear infinite alternate; }
 
 @keyframes scaleUp {
   0% { transform: scale(1);}
@@ -1218,12 +1192,6 @@ body.active { overflow: hidden; }
 
 .footer-list address { max-width: 20ch; }
 
-.footer-form {
-  background-color: var(--white);
-  padding: 30px;
-  border: 1px solid var(--cultured);
-  box-shadow: var(--shadow-2);
-}
 
 .input-wrapper {
   display: grid;
@@ -1250,14 +1218,6 @@ textarea.input-field {
   margin-block-end: 10px;
 }
 
-.footer-form .btn {
-  font-size: var(--fs-15);
-  --height: 40px;
-  --padding-inline: 25px;
-}
-
-.footer-form .btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29); }
-
 .footer-bottom {
   padding-block: 20px;
   text-align: center;
@@ -1266,10 +1226,6 @@ textarea.input-field {
 .copyright-link { display: inline-block; }
 
 .copyright-link:is(:hover, :focus) { text-decoration: underline; }
-
-
-
-
 
 /*-----------------------------------*\
   #BACK TO TOP
@@ -1297,9 +1253,6 @@ textarea.input-field {
 }
 
 .back-top-btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1684,9 +1637,6 @@ textarea.input-field {
    */
 
   .footer-top .container { grid-template-columns: 1fr 1fr 1fr 1.6fr; }
-
-  .footer-form { margin-block-start: -170px; }
-
 
 
   /**
