@@ -6,7 +6,8 @@
 	text-align: center;
 	margin: 0 auto;
 	padding: 20px 0 35px;
-    color: black;
+    color: black; 
+    background-color: antiquewhite;
 }
 .page-title h1 {
   font-size: 56px;
@@ -21,6 +22,7 @@
 }
 
 * {
+   
     font-family: arial, sans-serif;
     font-weight: 500;
     color:black;
